@@ -1,0 +1,51 @@
+/* Umumiy body o'rnatilishi */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #77ff00; /* Headerning boshlang'ich rangi */
+    padding: 20px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background-color 0.3s;
+  }
+  
+  .first-div {
+    background-color: #3498db; /* Birinchi divning boshlang'ich rangi */
+    height: 100vh; /* Butun ekranni qoplash */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .second-div {
+    height: 100vh;
+    background-color: #2ecc71; /* Ikkinchi divning boshlang'ich rangi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  /* Ranglar o'zgarishi */
+  .header.scrolled {
+    background-color: #3498db; /* Header rangining o'zgarishi */
+  }
+  
+  .first-div.scrolled {
+    background-color: #2ecc71; /* Birinchi divning rangining o'zgarishi */
+  }
+  
+  .second-div.scrolled {
+    background-color: #3498db; /* Ikkinchi divning rangining o'zgarishi */
+  }
+  

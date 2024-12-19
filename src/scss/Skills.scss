@@ -1,0 +1,63 @@
+.skills-container {
+    text-align: center;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+  
+  .h_skills {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    margin: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+  }
+  
+  .skills-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .skills-category {
+    margin-bottom: 10rem;
+    width: 45%;
+  }
+  
+  .skills-category h2 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  
+  .skill span {
+    width: 20%;
+    text-align: left;
+  }
+  
+  .progress-bar {
+    width: 60%;
+    height: 20px;
+    background-color: #f3e5db;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #c65034;
+  }
+  
+  .percentage {
+    width: 15%;
+    text-align: right;
+  }
+  
